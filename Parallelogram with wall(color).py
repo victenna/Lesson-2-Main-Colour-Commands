@@ -1,0 +1,36 @@
+import turtle
+t=turtle.Turtle()
+turtle.bgcolor("violet")        
+t.color("blue")
+t.pensize(5)                
+
+t.color('green','navy')
+t.begin_fill()
+t.forward(200)
+t.rt(140)
+t.forward(108)
+t.rt(40)
+t.fd(200)
+t.rt(140)
+t.fd(108)
+t.hideturtle()
+t.end_fill()
+
+t.color('green','red')
+t.up()
+t.goto(0,0)
+t.setheading(90)
+t.down()
+t.begin_fill()
+t.forward(200)
+t.rt(120)
+t.forward(130)
+t.rt(60)
+t.fd(200)
+t.rt(120)
+t.fd(130)
+t.hideturtle()
+t.end_fill()
+
+
+turtle.exitonclick()            # wait for a user click on the canvas
